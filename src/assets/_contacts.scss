@@ -1,0 +1,34 @@
+.contacts-wrapper {
+  display: grid;
+  grid-row-gap: $grid-gap;
+
+  & a {
+
+  }
+
+  & button {
+    background: transparent;
+    cursor: help;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.contact-item {
+  display: grid;
+  grid-template-columns: auto 50px;
+  grid-column-gap: calc(#{$grid-gap} / 2);
+}
+
+.contact {
+
+  figcaption {
+    display: grid;
+  }
+
+  .status {
+    font-size: 14px;
+  }
+}

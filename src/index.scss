@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: minmax(150px, 30%) 70%;
+}
